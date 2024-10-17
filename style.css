@@ -1,0 +1,61 @@
+body{
+  background-color: purple;
+}
+.photo{
+  flex-basis: 20%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+
+nav{
+   background-color: black;
+   color: white;
+   padding: 10px;
+}
+h1,ul,li{
+display:inline-block;
+}
+ul{
+    margin-left:60%;
+}
+  li{
+    color:gray;
+  }  
+li:hover{
+    color:white;
+    cursor:pointer;
+
+}
+input{
+    width:60%;
+    margin: 20px;
+    padding: 10px;
+}
+.search{
+    text-align:center;
+}
+.box{
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  display:inline-block;
+  width: 267px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.boxx{
+ 
+  border-width: 2px;
+  border-style: solid;
+  display:inline-block;
+  width: 300px;
+  margin-top: 20px;
+  margin-left: 20px;
+} 
+h2,p,h5{
+  color:white;
+  text-align: center;
+ 
+}
